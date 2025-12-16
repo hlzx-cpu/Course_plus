@@ -1,97 +1,120 @@
-Course-Plus (University Schedule Planner / 大学排课助手)
+<div align="center">
 
-Course-Plus is a modern, single-file course scheduling application built with React and Tailwind CSS. It is designed to handle complex university schedules, supporting multi-slot entries, smart fuzzy imports, and local data persistence.
+📅 Course-Plus
 
-Course-Plus 是一款基于 React 和 Tailwind CSS 构建的现代化单文件排课应用。专为处理复杂的大学课程安排设计，支持多时间段录入、智能模糊导入及本地数据持久化。
+A Modern University Schedule Planner
+
+现代化的大学排课助手
+
+<!-- Badges -->
+
+<p>
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/React-20232A%3Fstyle%3Dflat-square%26logo%3Dreact%26logoColor%3D61DAFB" alt="React" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dflat-square%26logo%3Dtailwind-css%26logoColor%3Dwhite" alt="Tailwind" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Vite-B73BFE%3Fstyle%3Dflat-square%26logo%3Dvite%26logoColor%3DFFD62E" alt="Vite" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-blue.svg%3Fstyle%3Dflat-square" alt="License" />
+</p>
+
+<!-- Short Description -->
+
+<p>
+Course-Plus is a single-file React application designed for complex university schedules.
+
+
+
+
+It supports multi-slot entries, smart fuzzy imports, and local data persistence.
+</p>
+<p>
+Course-Plus 是一款基于 React 的单文件排课应用。
+
+
+
+
+专为复杂的大学课表设计，支持多时间段录入、智能模糊导入及本地数据持久化。
+</p>
+
+[Report Bug] . [Request Feature]
+
+</div>
 
 ✨ Features / 核心功能
 
-Dark UI / 深色界面
+Feature
 
-Optimized dark mode using Tailwind CSS.
+Description (EN)
 
-基于 Tailwind CSS 设计的优化深色模式。
+说明 (CN)
 
-Complex Schedule Support / 复杂课表支持
+🎨 UI Design
 
-Support for multiple time slots per course (e.g., Wed 3-5, Fri 1-2).
+Dark Mode. Immersive interface built with Tailwind CSS.
 
-Flexible settings for odd/even weeks or specific week ranges.
+深色模式。基于 Tailwind CSS 打造的沉浸式界面。
 
-支持“一课多时段”（如周三3-5节 + 周五1-2节）及单双周/特定周次设置。
+🧩 Complex Schedule
 
-Smart Fuzzy Import / 智能模糊导入
+Supports multiple time slots per course (e.g., Wed 3-5 & Fri 1-2).
 
-Text sequence parsing: Name -> Teacher -> Room -> Day -> Time -> Weeks.
+支持一课多时段（如周三3-5节 + 周五1-2节）。
 
-Wildcard Support: Use * to skip fields and apply default values.
+⚡️ Smart Import
 
-支持文本序列解析导入。使用 * 通配符可跳过字段（自动应用默认值），无需完整信息即可导入。
+Fuzzy parsing. Use * to skip fields (Name -> Teacher -> Room...).
 
-Interactive Editing / 交互式编辑
+智能模糊导入。支持使用 * 跳过字段，无需完整信息即可导入。
 
-Click on course blocks to view details, modify info, or adjust time slots.
+📝 Editing
 
-点击课程卡片即可查看详情，修改信息或调整时间段。
+Interactive modal to view details and modify course info.
 
-Data Persistence / 数据存储
+交互式模态框，点击即可查看详情或修改课程信息。
 
-Auto-save: Real-time saving to localStorage.
+💾 Data Sync
 
-JSON Backup: Export/Import .json files for backup or migration.
+Auto-save to localStorage, JSON backup, and iCal (.ics) export.
 
-iCal Export: Generate .ics files for Apple/Google/Outlook calendars.
+自动保存，支持 JSON 备份及导出 .ics 日历文件。
 
-支持自动保存至 LocalStorage，JSON 数据导入导出备份，以及导出 .ics 日历文件。
+🚀 Quick Start / 快速开始
 
-🛠️ Tech Stack / 技术栈
-
-Frontend: React (Hooks)
-
-Styling: Tailwind CSS
-
-Build Tool: Vite
-
-Icons: Lucide-React
-
-Architecture: Single-File Component (SFC)
-
-🚀 How to Run / 本地运行
-
-1. Clone Project / 克隆项目
+1. Clone / 克隆项目
 
 git clone [https://github.com/hlzx-cpu/course-plus.git](https://github.com/hlzx-cpu/course-plus.git)
 cd course-plus
 
 
-2. Install Dependencies / 安装依赖
+2. Install / 安装依赖
 
 npm install
 
 
-3. Start Dev Server / 启动开发服务
+3. Run / 启动本地服务
 
 npm run dev
 
 
-Access via / 访问地址: http://localhost:5173
-
-4. Build / 构建 (Optional)
-
-npm run build
-
+Open your browser at http://localhost:5173
 
 🌐 Deployment / 部署指南
 
-Recommended: Vercel (Automated deployment for Vite/React).
+The easiest way to deploy is using Vercel.
 推荐使用 Vercel 进行自动化部署。
 
-Sign Up / 注册: Go to Vercel.com and login with GitHub.
+Login: Go to Vercel.com and login with GitHub.
 
-Import / 导入: Click "Add New Project" and select the course-plus repository.
+Import: Select the course-plus repository.
 
-Deploy / 部署: Keep default settings (Framework Preset: Vite) and click "Deploy".
+Deploy: Click Deploy (Framework Preset: Vite).
+
+📸 Screenshots / 截图
+
+<div align="center">
+<!-- Upload your image to the repository and link it here -->
+<!-- Example: <img src="./public/preview.png" width="800" alt="Preview" /> -->
+<img src="https://www.google.com/search?q=https://placehold.co/800x400/1e293b/white%3Ftext%3DUpload%2BYour%2BPreview%2BImage%2BHere" width="100%" alt="Preview Placeholder" />
+</div>
 
 📄 License
 
-This project is open sourced under the MIT license.
+MIT License © 2025 Course-Plus
