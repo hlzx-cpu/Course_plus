@@ -11,7 +11,7 @@
 
 <!-- Short Description -->
 
-<p>
+<font size="2"><p>
 Course-Plus is a single-file React application designed for complex university schedules.
 
 
@@ -26,82 +26,78 @@ Course-Plus 是一款基于 React 的单文件排课应用。
 
 
 专为复杂的大学课表设计，支持多时间段录入、智能模糊导入及本地数据持久化。
-</p>
-
-[Report Bug] . [Request Feature]
+</p></font size>
 
 </div>
 
-✨ Features / 核心功能
+<h3>✨ Features / 核心功能</h3>
 
-Feature
-
-Description (EN)
+Feature Description (EN)
 
 说明 (CN)
 
-🎨 UI Design
+<h4>🎨 UI Design</h4>
 
-Dark Mode. Immersive interface built with Tailwind CSS.
+&nbsp;&nbsp;&nbsp;&nbsp;Dark Mode. Immersive interface built with Tailwind CSS.
 
-深色模式。基于 Tailwind CSS 打造的沉浸式界面。
+&nbsp;&nbsp;&nbsp;&nbsp;深色模式。基于 Tailwind CSS 打造的沉浸式界面。
 
-🧩 Complex Schedule
+<h4>🧩 Complex Schedule</h4>
 
-Supports multiple time slots per course (e.g., Wed 3-5 & Fri 1-2).
+&nbsp;&nbsp;&nbsp;&nbsp;Supports multiple time slots per course (e.g., Wed 3-5 & Fri 1-2).
 
-支持一课多时段（如周三3-5节 + 周五1-2节）。
+&nbsp;&nbsp;&nbsp;&nbsp;支持一课多时段（如周三3-5节 + 周五1-2节）。
 
-⚡️ Smart Import
+<h4>⚡️ Smart Import</h4>
 
-Fuzzy parsing. Use * to skip fields (Name -> Teacher -> Room...).
+&nbsp;&nbsp;&nbsp;&nbsp;Fuzzy parsing. Use * to skip fields (Name -> Teacher -> Room...).
 
-智能模糊导入。支持使用 * 跳过字段，无需完整信息即可导入。
+&nbsp;&nbsp;&nbsp;&nbsp;智能模糊导入。支持使用 * 跳过字段，无需完整信息即可导入。
 
-📝 Editing
+<h4>📝 Editing</h4>
 
-Interactive modal to view details and modify course info.
+&nbsp;&nbsp;&nbsp;&nbsp;Interactive modal to view details and modify course info.
 
-交互式模态框，点击即可查看详情或修改课程信息。
+&nbsp;&nbsp;&nbsp;&nbsp;交互式模态框，点击即可查看详情或修改课程信息。
 
-💾 Data Sync
+<h4>💾 Data Sync</h4>
 
-Auto-save to localStorage, JSON backup, and iCal (.ics) export.
+&nbsp;&nbsp;&nbsp;&nbsp;Auto-save to localStorage, JSON backup, and iCal (.ics) export.
 
-自动保存，支持 JSON 备份及导出 .ics 日历文件。
+&nbsp;&nbsp;&nbsp;&nbsp;自动保存，支持 JSON 备份及导出 .ics 日历文件。
 
 🚀 Quick Start / 快速开始
 
 1. Clone / 克隆项目
-
-`git clone [https://github.com/hlzx-cpu/course-plus.git](https://github.com/hlzx-cpu/course-plus.git)\n`
-`cd course-plus`
-
+```bash
+git clone [https://github.com/hlzx-cpu/course-plus.git](https://github.com/hlzx-cpu/course-plus.git)\n
+cd course-plus
+```
 
 2. Install / 安装依赖
-
-`npm install`
-
+```bash
+npm install
+```
 
 3. Run / 启动本地服务
-
-`npm run dev`
-
+```bash
+npm run dev
+```
 
 Open your browser at http://localhost:5173
 
-🌐 Deployment / 部署指南
+<h3>🌐 Deployment / 部署指南</h3>
 
 The easiest way to deploy is using Vercel.
 推荐使用 Vercel 进行自动化部署。
 
-`Login: Go to Vercel.com and login with GitHub.`
+`Login: Go to Vercel.com and login with GitHub --->`
 
-`Import: Select the course-plus repository.`
+`Import: Select the course-plus repository --->`
 
-`Deploy: Click Deploy (Framework Preset: Vite).`
+`Deploy: Click Deploy (Framework Preset: Vite `
 
 
-📄 License
+<h3>📄 License</h3>
 
 MIT License © 2025 Course-Plus
