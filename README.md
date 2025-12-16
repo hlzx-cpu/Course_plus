@@ -101,13 +101,6 @@ Import: Select the course-plus repository.
 
 Deploy: Click Deploy (Framework Preset: Vite).
 
-📸 Screenshots / 截图
-
-<div align="center">
-<!-- Upload your image to the repository and link it here -->
-<!-- Example: <img src="./public/preview.png" width="800" alt="Preview" /> -->
-<img src="https://www.google.com/search?q=https://placehold.co/800x400/1e293b/white%3Ftext%3DUpload%2BYour%2BPreview%2BImage%2BHere" width="100%" alt="Preview Placeholder" />
-</div>
 
 📄 License
 
