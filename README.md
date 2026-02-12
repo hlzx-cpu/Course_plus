@@ -70,7 +70,7 @@ Feature Description (EN)
 
 1. Clone / 克隆项目
 ```bash
-git clone https://github.com/hlzx-cpu/course-plus.git\n
+git clone https://github.com/hlzx-cpu/course-plus.git
 cd course-plus
 ```
 
